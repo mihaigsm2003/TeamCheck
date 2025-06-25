@@ -9,8 +9,8 @@ The config is created automatically when the plugin is first started where you c
 Example config:
  ```
 {
-  "MinPlayersPerTeam": 5,
-  "InitialDelaySeconds": 7,
-  "RepeatDelaySeconds": 2.5,
+  "MinPlayersPerTeam": 5,  //if players < 5 show Play ONLY A
+  "InitialDelaySeconds": 7, // delay from start round
+  "RepeatDelaySeconds": 2.5, // Repeat after 2.5 sec
   "Version": 1
 }
